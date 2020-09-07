@@ -8,7 +8,10 @@ time git add update.txt;
 time git commit -m "check update angular" -m "just checking";
 time yarn run ng update @angular/core @angular/cli rxjs;
 time yarn run ng update;
+echo "please stand by..." >> update.txt
 date >> update.txt;
+time git add update.txt;
+time git commit -m "check update angular" -m "just checking";
 # time yarn run ng build --prod;
 # time yarn run ng test --watch=false --codeCoverage=true;
 time git add .;
