@@ -1,16 +1,16 @@
 #!/bin/bash
 
 cd /home/pat/src/patstha/hello/;
-date > update.txt;
-time yarn >> update.txt;
-time yarn run ng update >> update.txt;
-time git add update.txt;
+date > README.md;
+time yarn >> README.md;
+time yarn run ng update >> README.md;
+time git add README.md;
 time git commit -m "check update angular" -m "just checking";
 time yarn run ng update @angular/core @angular/cli rxjs;
 time yarn run ng update;
-echo "please stand by..." >> update.txt
-date >> update.txt;
-time git add update.txt;
+echo "please stand by..." >> README.md
+date >> README.md;
+time git add README.md;
 time git commit -m "check update angular" -m "just checking";
 # time yarn run ng build --prod;
 # time yarn run ng test --watch=false --codeCoverage=true;
