@@ -44,3 +44,11 @@ Found 30 dependencies.
       @angular/cli                       9.1.12 -> 10.1.0         ng update @angular/cli
       @angular/core                      9.1.12 -> 10.1.0         ng update @angular/core
 Done in 71.92s.
+yarn run v1.22.4
+$ ng update @angular/core @angular/cli rxjs
+Installing packages for tooling via yarn.
+Installed packages for tooling via yarn.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.4
+$ ng update
+Installing packages for tooling via yarn.
