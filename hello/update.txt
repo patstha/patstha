@@ -1,0 +1,10 @@
+Using package manager: 'yarn'
+Collecting installed dependencies...
+Found 30 dependencies.
+    We analyzed your package.json, there are some packages to update:
+    
+      Name                               Version                  Command to update
+     --------------------------------------------------------------------------------
+      @angular/cli                       8.3.10 -> 10.1.0         ng update @angular/cli
+      @angular/core                      8.2.11 -> 10.1.0         ng update @angular/core
+      rxjs                               6.4.0 -> 6.6.3           ng update rxjs

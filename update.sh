@@ -1,10 +1,11 @@
 #!/bin/bash
 
 cd /home/pat/src/patstha/hello/;
-time yarn;
-time yarn run ng update;
-time yarn run ng update @angular/core @angular/cli rxjs;
-time yarn run ng update;
+date >> update.txt;
+time yarn >> update.txt;
+time yarn run ng update >> update.txt;
+time yarn run ng update @angular/core @angular/cli rxjs >> update.txt;
+time yarn run ng update >> update.txt;
 # time yarn run ng build --prod;
 # time yarn run ng test --watch=false --codeCoverage=true;
 time git add .;
