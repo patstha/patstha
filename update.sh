@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /home/pat/src/patstha/hello/;
-date >> update.txt;
+date > update.txt;
 time yarn >> update.txt;
 time yarn run ng update >> update.txt;
 time git add update.txt;
