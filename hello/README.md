@@ -1,14 +1,12 @@
-Mon 07 Sep 2020 04:30:25 PM UTC
+Mon 07 Sep 2020 04:32:02 PM UTC
 yarn install v1.22.4
 [1/4] Resolving packages...
 success Already up-to-date.
-Done in 2.39s.
+Done in 2.23s.
 yarn run v1.22.4
 $ ng update
 Using package manager: 'yarn'
 Collecting installed dependencies...
 Found 30 dependencies.
     We analyzed your package.json and everything seems to be in order. Good work!
-Done in 12.20s.
-please stand by...
-Mon 07 Sep 2020 04:31:07 PM UTC
+Done in 11.60s.
