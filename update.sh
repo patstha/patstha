@@ -7,6 +7,7 @@ time yarn run ng update >> README.txt;
 time git add README.txt;
 time git commit -m "start check update angular" -m "just checking";
 time yarn run ng update @angular/core @angular/cli rxjs;
+time git commit -am "update angular" -m "angular {cli, cdk, material}, and rxjs";
 time yarn run ng update;
 echo "please stand by..." >> README.txt
 date >> README.txt;
