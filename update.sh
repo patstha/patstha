@@ -16,5 +16,5 @@ time git commit -m "end check update angular" -m "just checking";
 # time yarn run ng build --prod;
 # time yarn run ng test --watch=false --codeCoverage=true;
 time git add .;
-time git commit -m "update angular" -m "angular {cli, cdk, material}, and rxjs";
+time git commit -m "update angular" -m "angular {cli, cdk, material}";
 time git push origin --all;
