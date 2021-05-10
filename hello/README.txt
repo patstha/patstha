@@ -1,8 +1,8 @@
-Mon 10 May 2021 02:36:44 AM UTC
+Mon 10 May 2021 02:45:13 AM UTC
 yarn install v1.22.4
 [1/4] Resolving packages...
 success Already up-to-date.
-Done in 1.33s.
+Done in 1.28s.
 yarn run v1.22.4
 $ ng update
 Installing packages for tooling via yarn.
@@ -19,6 +19,4 @@ Found 30 dependencies.
     
     There might be additional packages which don't provide 'ng update' capabilities that are outdated.
     You can update the additional packages by running the update command of your package manager.
-Done in 17.20s.
-please stand by...
-Mon 10 May 2021 02:37:41 AM UTC
+Done in 17.10s.
