@@ -1,0 +1,87 @@
+yarn run v1.22.17
+$ ng build
+- Generating browser application bundles (phase: setup)...
+Unknown error from PostCSS plugin. Your current PostCSS version is 8.3.11, but postcss-preset-env uses 7.0.39. Perhaps this is the source of the error below.
+Unknown error from PostCSS plugin. Your current PostCSS version is 8.3.11, but postcss-preset-env uses 7.0.39. Perhaps this is the source of the error below.
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+
+./src/styles.sass.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[1].use[1]!./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[1].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]!./src/styles.sass - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js):
+BrowserslistError: Unknown version 81 of android
+    at Function.select (/home/kushal/patstha/hello/node_modules/browserslist/index.js:1130:17)
+    at /home/kushal/patstha/hello/node_modules/browserslist/index.js:340:33
+    at Array.reduce (<anonymous>)
+    at resolve (/home/kushal/patstha/hello/node_modules/browserslist/index.js:319:18)
+    at browserslist (/home/kushal/patstha/hello/node_modules/browserslist/index.js:449:21)
+    at Browsers.parse (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:63:12)
+    at new Browsers (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:46:26)
+    at loadPrefixes (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:94:20)
+    at plugin (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:105:20)
+    at /home/kushal/patstha/hello/node_modules/postcss-preset-env/index.js:443:157
+
+./src/styles.sass - Error: Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):
+HookWebpackError: Module build failed (from ./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js):
+BrowserslistError: Unknown version 81 of android
+    at Function.select (/home/kushal/patstha/hello/node_modules/browserslist/index.js:1130:17)
+    at /home/kushal/patstha/hello/node_modules/browserslist/index.js:340:33
+    at Array.reduce (<anonymous>)
+    at resolve (/home/kushal/patstha/hello/node_modules/browserslist/index.js:319:18)
+    at browserslist (/home/kushal/patstha/hello/node_modules/browserslist/index.js:449:21)
+    at Browsers.parse (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:63:12)
+    at new Browsers (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:46:26)
+    at loadPrefixes (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:94:20)
+    at plugin (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:105:20)
+    at /home/kushal/patstha/hello/node_modules/postcss-preset-env/index.js:443:157
+    at tryRunOrWebpackError (/home/kushal/patstha/hello/node_modules/webpack/lib/HookWebpackError.js:88:9)
+    at __webpack_require_module__ (/home/kushal/patstha/hello/node_modules/webpack/lib/Compilation.js:4963:12)
+    at __webpack_require__ (/home/kushal/patstha/hello/node_modules/webpack/lib/Compilation.js:4920:18)
+    at /home/kushal/patstha/hello/node_modules/webpack/lib/Compilation.js:4991:20
+    at symbolIterator (/home/kushal/patstha/hello/node_modules/neo-async/async.js:3485:9)
+    at done (/home/kushal/patstha/hello/node_modules/neo-async/async.js:3527:9)
+    at Hook.eval [as callAsync] (eval at create (/home/kushal/patstha/hello/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/kushal/patstha/hello/node_modules/tapable/lib/Hook.js:18:14)
+    at /home/kushal/patstha/hello/node_modules/webpack/lib/Compilation.js:4898:43
+    at symbolIterator (/home/kushal/patstha/hello/node_modules/neo-async/async.js:3482:9)
+-- inner error --
+Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js):
+BrowserslistError: Unknown version 81 of android
+    at Function.select (/home/kushal/patstha/hello/node_modules/browserslist/index.js:1130:17)
+    at /home/kushal/patstha/hello/node_modules/browserslist/index.js:340:33
+    at Array.reduce (<anonymous>)
+    at resolve (/home/kushal/patstha/hello/node_modules/browserslist/index.js:319:18)
+    at browserslist (/home/kushal/patstha/hello/node_modules/browserslist/index.js:449:21)
+    at Browsers.parse (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:63:12)
+    at new Browsers (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:46:26)
+    at loadPrefixes (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:94:20)
+    at plugin (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:105:20)
+    at /home/kushal/patstha/hello/node_modules/postcss-preset-env/index.js:443:157
+    at Object.<anonymous> (/home/kushal/patstha/hello/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[1].use[1]!/home/kushal/patstha/hello/node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[1].use[2]!/home/kushal/patstha/hello/node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!/home/kushal/patstha/hello/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]!/home/kushal/patstha/hello/src/styles.sass:1:7)
+    at /home/kushal/patstha/hello/node_modules/webpack/lib/javascript/JavascriptModulesPlugin.js:432:11
+    at Hook.eval [as call] (eval at create (/home/kushal/patstha/hello/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:7:1)
+    at Hook.CALL_DELEGATE [as _call] (/home/kushal/patstha/hello/node_modules/tapable/lib/Hook.js:14:14)
+    at /home/kushal/patstha/hello/node_modules/webpack/lib/Compilation.js:4965:39
+    at tryRunOrWebpackError (/home/kushal/patstha/hello/node_modules/webpack/lib/HookWebpackError.js:83:7)
+    at __webpack_require_module__ (/home/kushal/patstha/hello/node_modules/webpack/lib/Compilation.js:4963:12)
+    at __webpack_require__ (/home/kushal/patstha/hello/node_modules/webpack/lib/Compilation.js:4920:18)
+    at /home/kushal/patstha/hello/node_modules/webpack/lib/Compilation.js:4991:20
+    at symbolIterator (/home/kushal/patstha/hello/node_modules/neo-async/async.js:3485:9)
+
+Generated code for /home/kushal/patstha/hello/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[1].use[1]!/home/kushal/patstha/hello/node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[1].use[2]!/home/kushal/patstha/hello/node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!/home/kushal/patstha/hello/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]!/home/kushal/patstha/hello/src/styles.sass
+1 | throw new Error("Module build failed (from ./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js):\nBrowserslistError: Unknown version 81 of android\n    at Function.select (/home/kushal/patstha/hello/node_modules/browserslist/index.js:1130:17)\n    at /home/kushal/patstha/hello/node_modules/browserslist/index.js:340:33\n    at Array.reduce (<anonymous>)\n    at resolve (/home/kushal/patstha/hello/node_modules/browserslist/index.js:319:18)\n    at browserslist (/home/kushal/patstha/hello/node_modules/browserslist/index.js:449:21)\n    at Browsers.parse (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:63:12)\n    at new Browsers (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:46:26)\n    at loadPrefixes (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:94:20)\n    at plugin (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:105:20)\n    at /home/kushal/patstha/hello/node_modules/postcss-preset-env/index.js:443:157");
+
+./src/app/app.component.sass - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js):
+BrowserslistError: Unknown version 81 of android
+    at Function.select (/home/kushal/patstha/hello/node_modules/browserslist/index.js:1130:17)
+    at /home/kushal/patstha/hello/node_modules/browserslist/index.js:340:33
+    at Array.reduce (<anonymous>)
+    at resolve (/home/kushal/patstha/hello/node_modules/browserslist/index.js:319:18)
+    at browserslist (/home/kushal/patstha/hello/node_modules/browserslist/index.js:449:21)
+    at Browsers.parse (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:63:12)
+    at new Browsers (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/browsers.js:46:26)
+    at loadPrefixes (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:94:20)
+    at plugin (/home/kushal/patstha/hello/node_modules/autoprefixer/lib/autoprefixer.js:105:20)
+    at /home/kushal/patstha/hello/node_modules/postcss-preset-env/index.js:443:157
+
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
